@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+pm2 start /home/val-api/api.js -i 0 --max-memory-restart 1G
+pm2 logs
